@@ -1,30 +1,34 @@
 body {
-    font-family: Arial, sans-serif;  
-  }
+  background-color:blanchedalmond 
+}
+
+#yosief{
+  background-image: url( "/cs472/Lab2/img/360_F_306033697_cgP7Y992eeoBdfstzG7vkHG5fyS9Z3n2.jpg");
+  border-bottom: 5px solid #ccc;
+  height: 300px;
+
+}
+
+strong{
+  color:rgb(3, 112, 76)
+}
+
+h1{
+  padding: 70px;
+  size: 100px;
+}
+
+.im1{
+  padding-right: 100px;
   
-  #main-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+}
+.im{
+  padding-right: 100px;
+  width: 2o0px;
+  length: 2o0px;
   
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center; 
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  h1, h2 {
-    font-weight: bold;  
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
+}
+
+
+
+
