@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;  
+  }
+  
+  #main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center; 
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2 {
+    font-weight: bold;  
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
