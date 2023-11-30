@@ -16,13 +16,7 @@ h1{
 }
 
 .im1{
-  padding-right: 100px;
-  
-}
-.im{
-  padding-right: 100px;
-  width: 250px;
-  height: 300px;
+  border-image-width: 50px;
   
 }
 .ab{
