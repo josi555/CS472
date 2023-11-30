@@ -1,14 +1,11 @@
 body {
-  background-color:blanchedalmond 
+  background-color:blanchedalmond;
 }
-
-#yosief{
-  background-image: url( "/cs472/Lab2/img/360_F_306033697_cgP7Y992eeoBdfstzG7vkHG5fyS9Z3n2.jpg");
-  border-bottom: 5px solid #ccc;
-  height: 300px;
-
+header{
+background-image: url( "/cs472/Lab2/img/360_F_306033697_cgP7Y992eeoBdfstzG7vkHG5fyS9Z3n2.jpg");
+border-bottom: 5px solid #ccc;
+height: 300px;
 }
-
 strong{
   color:rgb(3, 112, 76)
 }
@@ -24,9 +21,13 @@ h1{
 }
 .im{
   padding-right: 100px;
-  width: 2o0px;
-  length: 2o0px;
+  width: 250px;
+  height: 300px;
   
+}
+.ab{
+width: 80px;
+height: 80px;
 }
 
 
