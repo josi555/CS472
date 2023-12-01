@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUM Golden Dome Market :: SRM System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style> 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #02203f;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    
+    .main-nav {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    
+    .main-nav a, .user-info {
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .user-info span {
+        margin-right: 5px;
+    }
+    
+    h1, h2 {
+        padding: 10px 0;
+    }
+    
+    .form-container {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .form-group input, .form-group select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .form-group span {
+        font-size: 0.8em;
+        color: #666;
+    }
+    
+    .form-actions {
+        margin-top: 20px;
+    }
+    
+    .reset-btn, .cancel-btn, .add-btn {
+        padding: 10px 15px;
+        border: none;
+        margin: 0 5px;
+    }
+    
+    .reset-btn {
+        background-color: #f8f9fa;
+        color: #333;
+    }
+    
+    .cancel-btn {
+        background-color: #dc3545;
+        color: white;
+    }
+    
+    .add-btn {
+        background-color: #007bff;
+        color: white;
+    }
+    
+   
+</style>    
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>MUM Golden Dome Market :: SRM System</h1>
+        <nav class="main-nav">
+            <a href="#">Products</a>
+            <a href="#">Suppliers</a>
+            <div class="user-info">
+                <span>Hello!</span>
+                <a href="#">Sign Out</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="form-container">
+        <h2>New Product Form</h2>
+        <div class="form-content">
+            <form>
+                <div class="form-group">
+                    <label for="productNumber">Product Number</label>
+                    <input type="text" id="productNumber">
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="unitPrice">Unit Price</label>
+                    <input type="number" id="unitPrice" value="0.0">
+                </div>
+                <div class="form-group">
+                    <label for="quantityInStock">Quantity in stock</label>
+                    <input type="number" id="quantityInStock" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="supplier">Supplier:</label>
+                    <select id="supplier">
+                        <option>Select a supplier</option>
+                      
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dateSupplied">Date supplied</label>
+                    <input type="date" id="dateSupplied">
+                    <span>Enter a valid Date.</span>
+                </div>
+                <div class="form-actions">
+                    <button type="reset" class="reset-btn">Reset</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+                    <button type="submit" class="add-btn">Add Product</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+</html>

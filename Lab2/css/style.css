@@ -1,51 +1,102 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+body, h1, h2, p, form {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: "header header header"
-        "nav nav nav"
-        "left main right "
-        "footer footer footer";
-    grid-gap: 3px;
-    height: 96hw;
+
+body {
+   font-family: Arial, sans-serif;
+}
+.logo{
+    
+   width:70px;
+   height:70px;
+
+}
+.logo{
+    
+   width:70px;
+   height:70px;
+   flex-direction: left;
 }
 
-.header {
-    grid-area: header;
-    background-color: dodgerblue;
-    color: white;
-    padding: 50px;
-    text-align: center;
+
+h1{
+   border: solid rgb(81, 6, 6) px;
+   padding: 50px;
+   background-color: rgb(11, 107, 129);
+   padding: 100px 155x 100px;
+ }
+ 
+
+
+
+header {
+   background-color: #fffdfd;
+   color: rgb(232, 10, 10);
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
-.nav {
-    grid-area: nav;
+.branding p, .main-nav a {
+   color: rgb(4, 3, 3);
+   text-decoration: none;
 }
 
-.left {
-    grid-area: left;
+.main-nav a {
+   margin-left: 20px;
 }
 
-.main {
-    grid-area: main;
+.banner {
+   text-align: center;
+   padding: 20px;
 }
 
-.right {
-    grid-area: right;
+.login-container, .submit-ticket {
+   margin: 20px auto;
+   width: 80%;
+   max-width: 300px;
 }
 
-.footer {
-    grid-area: footer;
-    background-color: whitesmoke;
-    padding: 15px 10px;
-    text-align: right;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+.login-container form {
+   display: flex;
+   flex-direction: column;
 }
+
+label {
+   margin-top: 10px;
+}
+
+input[type=email], input[type=password] {
+   margin-top: 5px;
+   padding: 10px;
+   border: 1px solid #ccc;
+}
+
+
+input[type=checkbox] {
+   margin-right: 5px;
+}
+
+
+
+
+button {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
+
