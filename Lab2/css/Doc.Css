@@ -2,7 +2,7 @@ body {
   background-color:blanchedalmond;
 }
 header{
-background-image: url( "/cs472/Lab2/img/360_F_306033697_cgP7Y992eeoBdfstzG7vkHG5fyS9Z3n2.jpg");
+background-image: url( /cs472/img/360_F_306033697_cgP7Y992eeoBdfstzG7vkHG5fyS9Z3n2.jpg);
 border-bottom: 5px solid #ccc;
 height: 300px;
 }

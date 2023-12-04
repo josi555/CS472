@@ -30,7 +30,7 @@ body {
 
 .right li {
     margin-right: 25px;
-    /* Add spacing between list items */
+   
 }
 
 h1{
@@ -52,7 +52,7 @@ footer{
    justify-content: space-between;
    color: #666666;
 }
-/* Clear floats after the columns */
+
 .row:after {
    content: "";
    display: table;
@@ -79,12 +79,12 @@ h2{
    content: "";
    display: inline-block;
    width: 115px;
-   /* Adjust the width of the dotted lines */
+   
    border-top: 1px dotted #a19b9b;
-   /* Dotted line style and color */
+ 
    vertical-align: middle;
    margin: 0 10px;
-   /* Adjust the margin to control the spacing */
+   
 }
 .dotted-lines::before {
    left: 0;
@@ -107,7 +107,7 @@ h2{
    margin-top: 50px;
    margin-bottom: 50px;
    background-color: rgb(46, 44, 44);
-   /* Color of the vertical line */
+
 }
 #button {
 
